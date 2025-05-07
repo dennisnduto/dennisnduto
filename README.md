@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @dennisnduto
-- 👀 I’m interested in cybersecurity
-- 🌱 I’m currently learning C++
+
 - 📫 You can reach me via my email. dennisnduto418@gmail.com
 
 <!---
