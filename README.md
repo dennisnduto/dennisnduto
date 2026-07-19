@@ -1,54 +1,68 @@
 # Dennis Nduto
 
-**ML Systems & Software Engineer**
+### ML Systems & Full-Stack Software Engineer
 
-I build test-driven software focused on automatic differentiation,
-graph compilation, distributed runtimes, numerical correctness, and
-production engineering.
+I build reliable software across machine-learning runtimes, compiler tooling, distributed execution, and production web applications. My work ranges from TensorFlow and JAX internals to TypeScript/Next.js and PHP/Laravel systems backed by relational databases.
 
-My current portfolio covers:
+Based in **Nairobi, Kenya** and open to remote engineering opportunities.
 
-- JAX custom transformations and implicit differentiation
-- Custom primitives, batching rules, and StableHLO/MLIR lowering
-- Explicit array sharding, device meshes, and collectives
-- Pallas kernel programming and runtime validation
-- TensorFlow tracing, distributed training, custom-op, and compiler work
-  currently under development
-- Python, TypeScript, APIs, databases, testing, and technical documentation
+## What I work on
 
-## Selected ML Systems Projects
+- **ML systems and runtimes:** distributed training, synchronous collectives, explicit sharding, checkpoint recovery, tracing, graph inspection, and runtime diagnostics
+- **Compiler and autodiff tooling:** JAX transformations, custom JVP/VJP rules, custom primitives, JAXPR, StableHLO/MLIR lowering, XLA concepts, and Pallas kernels
+- **Reliability engineering:** deterministic workloads, numerical validation, subprocess supervision, heartbeats, watchdogs, structured reports, soak tests, and failure-path testing
+- **Full-stack applications:** authenticated products, role-based access, AI-assisted workflows, dashboards, APIs, subscriptions, reporting, and database-backed systems
+- **Engineering quality:** automated tests, continuous integration, packaging, Docker, reproducible setup, and architecture documentation
 
-| Project | Technical focus |
+## Languages and technologies
+
+| Area | Technologies |
 |---|---|
-| [JAX StableHLO Custom Primitive](https://github.com/dennisnduto/jax-stablehlo-custom-primitive) | Abstract evaluation, custom JVP, batching rules, and MLIR lowering |
-| [JAX Mesh Sharding Runtime](https://github.com/dennisnduto/jax-mesh-sharding-runtime) | jax.Array, Mesh, PartitionSpec, shard_map, collectives, and soak testing |
-| [JAX Transform Internals Lab](https://github.com/dennisnduto/jax-transform-internals-lab) | custom_jvp, custom_vjp, implicit differentiation, JAXPR, and StableHLO |
-| [JAX Pallas Kernel Lab](https://github.com/dennisnduto/jax-pallas-kernel-lab) | BlockSpec tiling, fused kernels, correctness tests, and accelerator benchmarking |
+| Languages | Python, TypeScript, JavaScript, PHP, SQL, HTML, CSS, Shell |
+| ML systems | TensorFlow, JAX, NumPy, tf.distribute, StableHLO, MLIR, XLA, Pallas |
+| Web engineering | Next.js, React, Laravel, Blade, Tailwind CSS, Alpine.js |
+| Data and backend | PostgreSQL, MySQL, Prisma, Auth.js / NextAuth, REST APIs |
+| Reliability and tooling | pytest, Ruff, GitHub Actions, Docker, Compose, Make, structured logging |
+| Runtime topics | Distributed collectives, mesh sharding, autodiff, graph tracing, checkpointing, process supervision |
 
-## Engineering Standards
+> GitHub also classifies Blade templates, Dockerfiles, and Makefiles across my repositories; I use them as part of Laravel delivery, containerization, and build automation.
 
-My repositories aim to include:
+## Featured ML systems projects
 
-- Reproducible installation
-- Automated tests and continuous integration
-- Numerical reference comparisons
-- Runtime and failure-path validation
-- Architecture and design documentation
-- Honest hardware and performance reporting
+| Project | Focus |
+|---|---|
+| [TensorFlow Distributed Collectives Runtime](https://github.com/dennisnduto/tensorflow-distributed-collectives-runtime) | Multi-process `MultiWorkerMirroredStrategy`, collective validation, deterministic sharding, heartbeats, watchdogs, checkpoint restart, and soak testing |
+| [TensorFlow Function Trace Inspector](https://github.com/dennisnduto/tensorflow-function-trace-inspector) | `tf.function` specialization, `ConcreteFunction`, captures, AutoGraph, GraphDef analysis, SavedModel signatures, and numerical parity |
+| [JAX Mesh Sharding Runtime](https://github.com/dennisnduto/jax-mesh-sharding-runtime) | `jax.Array`, device meshes, `PartitionSpec`, `shard_map`, collectives, compiled training, and runtime checks |
+| [JAX StableHLO Custom Primitive](https://github.com/dennisnduto/jax-stablehlo-custom-primitive) | Abstract evaluation, custom autodiff, batching rules, and portable StableHLO/MLIR lowering |
+| [JAX Transform Internals Lab](https://github.com/dennisnduto/jax-transform-internals-lab) | Custom JVP/VJP rules, implicit differentiation, transformation composition, JAXPR, and numerical validation |
+| [JAX Pallas Kernel Lab](https://github.com/dennisnduto/jax-pallas-kernel-lab) | BlockSpec tiling, fused kernels, CPU interpret-mode correctness tests, and accelerator-ready benchmarking |
 
-## Current Direction
+## Application engineering projects
 
-I am extending this work into TensorFlow internals, including:
+| Project | Focus |
+|---|---|
+| [StudyMind AI](https://github.com/dennisnduto/StudyMind) | Next.js, React, TypeScript, Prisma, PostgreSQL, Auth.js, grounded document chat, quizzes, analytics, and subscription access |
+| [Smart University Timetable](https://github.com/dennisnduto/smartsystem) | Laravel, PHP, Blade, MySQL, role-oriented workflows, room tracking, timetable management, reporting, and AI-assistant scaffolding |
+| [Room Availability System](https://github.com/dennisnduto/Room-Availability-System) | PHP/MySQL room allocation, authentication, administration, availability dashboards, and reports |
+| [Portfolio](https://github.com/dennisnduto/portfolio) | Personal web presence built with HTML |
 
-- `tf.function` tracing and AutoGraph behavior
-- TensorFlow custom C++ and CUDA operations
-- `tf.distribute` and collective communication
-- Grappler and XLA graph inspection
-- SavedModel and serving-runtime validation
+## Engineering principles
+
+- Prefer observed runtime evidence over unsupported claims
+- Test numerical behavior against clear references
+- Keep distributed workers in isolated operating-system processes
+- Make failures visible through structured logs and reports
+- Document hardware and validation limits honestly
+- Build software that can be installed, tested, and maintained by another engineer
+
+## Current focus
+
+I am deepening my work in distributed ML runtimes, graph compilers, accelerator programming, and production-grade AI application infrastructure—especially the boundary between high-level frameworks and the systems that execute them reliably.
 
 ## Contact
 
-- Email: dennisnduto418@gmail.com
-- LinkedIn: [Dennis Nduto](https://www.linkedin.com/in/dennis-nduto-42a256250)
-- Location: Nairobi, Kenya
-- Availability: Remote and asynchronous technical work
+- **Email:** [dennisnduto418@gmail.com](mailto:dennisnduto418@gmail.com)
+- **LinkedIn:** [Dennis Nduto](https://www.linkedin.com/in/dennis-nduto-42a256250)
+- **GitHub:** [@dennisnduto](https://github.com/dennisnduto)
+- **Location:** Nairobi, Kenya
